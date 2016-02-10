@@ -1,0 +1,58 @@
+body{
+  padding-top: 50px;
+}
+
+#race-table td{
+  width: 50px;
+  height: 50px;
+}
+
+#track-1 .here{
+  background-image: url("images/player_1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.finish-line{
+  background: black;
+}
+
+#track-2 .here{
+  background-image: url("images/player_2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#game-box{
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#game-box .player-1, #game-box .player-2{
+  display: none;
+}
+
+
+/*.racer_table td {
+  height: 40px;
+  width: 40px;
+  max-width: auto;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2_race td.active {
+  background-image: url("images/player_2.png");
+}
+*/
+
+
+/* Your board style here */
